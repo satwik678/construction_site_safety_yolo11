@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
+
+roboflow:
+  workspace: satwik-prabhu
+  project: construction-site-safety-monitor-tdr0d
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/satwik-prabhu/construction-site-safety-monitor-tdr0d/dataset/1
